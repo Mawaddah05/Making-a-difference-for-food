@@ -1,0 +1,432 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    justify-content: center; 
+    margin: 0px; 
+}
+.one{
+    height: 588px;
+    background-image:url(.//images/pineapple.jpg);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    color:white;
+    align-items: center;
+}
+.shop{
+    /* position: relative; */
+    padding-left: 30px;
+    padding-top:30px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.friends{
+    font-size: 128px;
+    margin: 35px 0px;
+    padding-top: 100px;
+    text-align: center;
+    font-weight: 700;
+}
+.guide{
+    text-align: center;
+    padding-top: 0px;
+    position: relative;
+    top:-50px;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.two{
+    display: flex;
+    width: 100%;
+    height: 550px;
+
+}
+.pic1{
+    width: 50%;
+    box-sizing: border-box;
+}
+.green{
+    height: 100%;
+    width: 100%;
+
+}
+.text1{
+    width: 50%;
+}
+.textbox{
+    width: 100%;
+    padding-left: 70px;
+    padding-right:75px;
+    margin-top: 45px;
+    
+
+}
+.lineabout{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+.line1{
+    width: 60px;
+    height: 4px;
+    background-color: #61D4E7;
+    position: relative;
+    top: 32px;
+    border-radius: 2px;
+
+}
+.about{
+    text-align: center;
+    color: #61D4e7;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+}
+header{
+    text-align: left;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+
+}
+.lorem1{
+    font-family: 'Open Sans', sans-serif;
+    font-size:16px;
+    font-weight: 350;
+    text-align: left;
+}
+.checkbox1{
+    border: 3px solid #61D4E7;
+    width: 120px;
+    height: 40px;
+    align-items: center;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+.more{
+    position: relative;
+    top:-19px;
+    font-weight: bold;
+    font-size:20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+
+}.three{
+    display: flex;
+    width: 100%;
+    height: 550px
+}
+.text2{
+    width: 50%;
+}
+.textbox2{
+    margin-top: 45px;
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 50px;
+}
+.lineservices{
+    display: flex;
+    width: 220px;
+    justify-content: space-between;
+}
+.line2{
+    width: 60px;
+    height: 4px;
+    background-color: #f6d427; 
+    position: relative;
+    top: 32px;
+    border-radius: 2px;
+}
+.services{
+    color: #f6d427;
+   font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    position: relative;
+}
+.pic2{
+    width:50%;
+    box-sizing: border-box;
+}
+.winter{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.lorem2{
+    font-family:'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 350;
+}
+.checkbox2{
+    border: 3px solid #f6d427;
+    width: 120px;
+    height: 40px;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 100;
+}
+.four{
+    display: flex;
+    width: 100%;
+    height: 590px;
+    box-sizing: border-box;
+    
+}
+.pic3{
+    width: 50%;
+    box-sizing: border-box;
+
+}
+.girl{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+.lineknow{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}
+.line3{
+    width: 60px;
+    height: 4px;
+    background-color:#ED92AE;
+    position: relative;
+    top:27px;
+    border-radius: 2px;
+}
+.know{
+    color: #ED92AE;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    position: relative;
+}
+.checkbox3{
+    border: 3px solid #ED92AE;
+    width: 120px;
+    height: 40px;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 100;
+}
+.five{
+    /* width: 100%; */
+    background-color: brown;
+    
+}
+.cats{
+    width: 100%;
+    display:flex;
+}
+.pics{
+   height: 250px;
+   width: 25%
+
+
+}
+.six{
+    width:100%;
+    margin: 0 auto;
+}
+.textbox4{
+    margin: 100px 120px;
+    text-align: center;
+    align-items: center;
+}
+ .portfolio{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500; 
+    color: #ED92AE;
+    font-size:1.3rem ;
+}
+.nomination{
+    text-align: center;
+    padding: 0px 100px;
+}
+.seven{
+    margin: 0px 100px;
+}
+.firstrow, .secondrow{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.port{
+    height: 250px;
+    width: 32%;
+    margin: 5px 5px;
+}
+.eight{
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(255, 246, 234);
+    align-items: center;
+    width: 100%;
+    /* height:550px; */
+    /* margin-top: 100px; */
+    background-image: url(".//images/background.jpg");
+    /* background-attachment: fixed; */
+   /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+}
+.contact{
+    text-align: center;
+    padding-top: 70px;
+    color: rgb(255, 255, 255);
+}
+form{
+    margin: 0 auto;
+}
+fieldset{
+    border: none;
+    margin: 0 auto;
+}
+input{
+    width:70%;
+    display: block;
+    align-items: center;
+    margin: 0 auto;
+    height: 40px;
+    margin-bottom: 15px;
+    background-color:rgba(0,0,0,0);
+    border: 3px white solid;
+    color: white; 
+    border-radius: 3px;
+}
+textarea{
+    width:70%;
+    display: block;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    background-color:rgba(0,0,0,0);
+    border: 3px white solid;
+    color: white; 
+    border-radius: 3px;
+}
+button{
+    margin: 0 auto;
+    display: block;
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    font-family:'Open Sans', sans-serif;
+    font-weight: 650;
+    color:#ED92AE;
+    border: none;
+    border-radius: 1px;
+}
+footer{
+    height:200px;
+    background-color: rgba(0, 0, 0, 0.822);
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+.footer{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.template{
+    padding-top:0px;
+    position: relative;
+    top: -15px;
+}
+a{
+    color: rgb(253, 178, 39);
+}
+@media(max-width:769px){
+    .two, .three, .four{
+        height: 400px;
+    }
+    .breeds, .supplies{
+        font-size: 2.2rem;
+    }
+    .lorem1, .lorem2{
+        font-size: 1.1rem;
+    }
+    .pic2{
+        width: 50%;
+    }
+    .pics{
+        height: 300px
+    }
+    .port{
+        height: 200px;
+    }
+    .textbox,.textbox2{
+        margin-top: 10px;
+    }
+}
+@media(max-width: 426px){
+    .one{
+        width: 100%
+    }
+    .two, .four{
+        display: grid;
+    }
+    .three{
+        display: grid;
+        margin-top: 400px;
+    }
+    .pic1, .pic2, .pic3{
+        width: 100%;
+    }
+    .pic2{
+        margin-top: 50px;
+    }
+    .text1, .text2{
+        width: 100%;
+    }
+    .four{
+        margin-top: 370px;
+    }
+    .five{
+        margin-top: 420px;
+    }
+    .cats{
+        display: grid;
+        width: 100%;
+    }
+    .pics{
+        width: 100%;
+        height: auto;
+    }
+    .seven{
+        margin: 0px 0px;
+    }
+    .firstrow, .secondrow{
+        display: flex;
+        flex-direction: column;
+    }
+    .port{
+        width: 60%;
+        height: auto;
+        margin: 7px auto;
+    }
+    .textbox4{
+        margin: 100px 20px;
+    }
+    .nomination{
+        font-size: 2.4rem;
+    }
+
+    
+}
+
