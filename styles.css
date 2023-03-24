@@ -58,7 +58,7 @@ body{
 .textbox{
     width: 100%;
     padding-left: 70px;
-    padding-right:75px;
+    padding-right:60px;
     margin-top: 45px;
     
 
@@ -91,10 +91,15 @@ body{
 header{
     text-align: left;
     font-family: 'Oswald', sans-serif;
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 700;
 
 }
+.strategies{
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
 .lorem1{
     font-family: 'Open Sans', sans-serif;
     font-size:16px;
@@ -114,9 +119,9 @@ header{
 }
 .more{
     position: relative;
-    top:-19px;
+    top:-16px;
     font-weight: bold;
-    font-size:20px;
+    font-size:18px;
     font-family: 'Oswald', sans-serif;
     font-weight: 600;
 
@@ -270,7 +275,7 @@ header{
     height: 550px;
     background-size: cover;
     background-repeat: no-repeat;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Oswald', sans-serif;
     color:rgb(255, 246, 234);
     align-items: center;
     width: 100%;
@@ -288,6 +293,11 @@ form{
 fieldset{
     border: none;
     margin: 0 auto;
+}
+.nine{
+    height: 200px;
+    position: relative;
+    top: -15px;
 }
 input{
     width:400px;
@@ -318,7 +328,7 @@ button{
     width: 100px;
     height: 40px;
     font-size: 15px;
-    font-family:'Open Sans', sans-serif;
+    font-family:'Oswald', sans-serif;
     font-weight: 650;
     color:#ED92AE;
     border: none;
@@ -330,7 +340,7 @@ footer{
     text-align: center;
     color: white;
     font-family: 'Open Sans', sans-serif;
-    font-size: 12px;
+    font-size: 15px;
     margin-top: 0px;
 }
 .footer{
@@ -347,6 +357,7 @@ footer{
 }
 a{
     color: rgb(253, 178, 39);
+    text-decoration: none;
 }
 @media(max-width:769px){
     .two, .three, .four{
